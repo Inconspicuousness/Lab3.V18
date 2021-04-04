@@ -1,6 +1,3 @@
-Файл VectorCoordinates.h
-#ifndef VECTORCOORDINATES_H
-#define VECTORCOORDINATES_H
 #include <iostream>
 using namespace std;
 
@@ -113,12 +110,9 @@ public:
         cout << " (" << x << ", " << y << ", " << z << ")";
     }
 };
-#endif
 
-Файл main.ccp
-#include "VectorCoordinates.h"
-#include <iostream>
-using namespace std;
+
+
 int main()
 {
     setlocale(LC_ALL, "Russian");
